@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gedev.walktest" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Yürüme Testi</name>
+    <description>6 dakika Yürüme Testi ve Shuttlw Walk Testi</description>
+    <author email="gedevapps@gmail.com" href="http://gedevapps.com">
+        Gedev Team
+    </author>
+    <content src="index.html" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="disableImmersive" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="android-minSdkVersion" value="14" />
+    <icon src="icon.png" />
+    <platform name="android">
+        <icon density="ldpi" src="www/res/icon/android/mipmap-ldpi/icon.png" />
+        <icon density="mdpi" src="www/res/icon/android/mipmap-mdpi/icon.png" />
+        <icon density="hdpi" src="www/res/icon/android/mipmap-hdpi/icon.png" />
+        <icon density="xhdpi" src="www/res/icon/android/mipmap-xhdpi/icon.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/mipmap-xxhdpi/icon.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/mipmap-xxxhdpi/icon.png" />
+        <preference name="android-manifest/@android:installLocation" value="auto" />
+    </platform>
+    <platform name="browser">
+        <icon src="www/res/icon/android/mipmap-mdpi/icon.png" />
+    </platform>
+    <platform name="ios">
+        <icon height="57" platform="ios" src="www/res/icon/ios/Icon.png" width="57" />
+        <icon height="114" platform="ios" src="www/res/icon/ios/Icon@2x.png" width="114" />
+        <icon height="40" platform="ios" src="www/res/icon/ios/Icon-40.png" width="40" />
+        <icon height="80" platform="ios" src="www/res/icon/ios/Icon-40@2x.png" width="80" />
+        <icon height="50" platform="ios" src="www/res/icon/ios/Icon-50.png" width="50" />
+        <icon height="100" platform="ios" src="www/res/icon/ios/Icon-50@2x.png" width="100" />
+        <icon height="60" platform="ios" src="www/res/icon/ios/Icon-60.png" width="60" />
+        <icon height="120" platform="ios" src="www/res/icon/ios/Icon-60@2x.png" width="120" />
+        <icon height="180" platform="ios" src="www/res/icon/ios/Icon-60@3x.png" width="180" />
+        <icon height="72" platform="ios" src="www/res/icon/ios/Icon-72.png" width="72" />
+        <icon height="144" platform="ios" src="www/res/icon/ios/Icon-72@2x.png" width="144" />
+        <icon height="76" platform="ios" src="www/res/icon/ios/Icon-76.png" width="76" />
+        <icon height="152" platform="ios" src="www/res/icon/ios/Icon-76@2x.png" width="152" />
+        <icon height="167" platform="ios" src="www/res/icon/ios/Icon-167.png" width="167" />
+        <icon height="29" platform="ios" src="www/res/icon/ios/Icon-small.png" width="29" />
+        <icon height="58" platform="ios" src="www/res/icon/ios/Icon-small@2x.png" width="58" />
+        <icon height="87" platform="ios" src="www/res/icon/ios/Icon-small@3x.png" width="87" />
+    </platform>
+    <platform name="wp8">
+        <icon height="99" platform="wp8" src="www/res/icon/wp8/ApplicationIcon.png" width="99" />
+        <icon height="159" platform="wp8" src="www/res/icon/wp8/Background.png" width="159" />
+        <splash height="1280" platform="wp8" src="www/res/screen/wp8/screen-portrait.jpg" width="768" />
+    </platform>
+    <platform name="windows">
+        <icon height="150" platform="windows" src="www/res/icon/windows/Square150x150Logo.scale-100.png" width="150" />
+        <icon height="30" platform="windows" src="www/res/icon/windows/Square30x30Logo.scale-100.png" width="30" />
+        <icon height="50" platform="windows" src="www/res/icon/windows/StoreLogo.scale-100.png" width="50" />
+        <icon height="120" platform="windows" src="www/res/icon/windows/StoreLogo.scale-240.png" width="120" />
+        <icon height="44" platform="windows" src="www/res/icon/windows/Square44x44Logo.scale-100.png" width="44" />
+        <icon height="106" platform="windows" src="www/res/icon/windows/Square44x44Logo.scale-240.png" width="106" />
+        <icon height="70" platform="windows" src="www/res/icon/windows/Square70x70Logo.scale-100.png" width="70" />
+        <icon height="71" platform="windows" src="www/res/icon/windows/Square71x71Logo.scale-100.png" width="71" />
+        <icon height="170" platform="windows" src="www/res/icon/windows/Square71x71Logo.scale-240.png" width="170" />
+        <icon height="360" platform="windows" src="www/res/icon/windows/Square150x150Logo.scale-240.png" width="360" />
+        <icon height="310" platform="windows" src="www/res/icon/windows/Square310x310Logo.scale-100.png" width="310" />
+        <icon height="150" platform="windows" src="www/res/icon/windows/Wide310x150Logo.scale-100.png" width="310" />
+        <icon height="360" platform="windows" src="www/res/icon/windows/Wide310x150Logo.scale-240.png" width="744" />
+    </platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <gap:config-file parent="/manifest" platform="android">
+        <application android:debuggable="true" />
+    </gap:config-file>
+    <engine name="android" spec="^6.2.3" />
+    <engine name="browser" spec="~4.1.0" />
+    <plugin name="cordova-custom-config" spec="~3.1.2" />
+    <plugin name="cordova-plugin-device" spec="~1.1.1" />
+    <plugin name="cordova-plugin-dialogs" spec="~1.2.0" />
+    <plugin name="cordova-plugin-file" spec="~4.1.1" />
+    <plugin name="cordova-plugin-media" spec="~2.2.0" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
+    <plugin name="cordova-sqlite-storage" spec="~1.4.7" />
+</widget>
